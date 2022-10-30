@@ -52,7 +52,7 @@ def send_goal(x,y,theta):
     client.send_goal(goal)
     
 
-send_goal(0.0,0.0,0.0)
+send_goal(2.0,3.0,0.0)
 wait = client.wait_for_result()
 if not wait:
     print('Error')
