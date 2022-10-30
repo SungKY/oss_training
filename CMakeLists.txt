@@ -50,5 +50,5 @@ CATKIN_DEPENDS rospy
 catkin_install_python(PROGRAMS
   node/simple_publisher.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+)
 
