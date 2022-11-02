@@ -27,7 +27,7 @@ def update_init_pose(x, y, theta):
     init_pose.pose.pose.orientation.z = q[2]
     init_pose.pose.pose.orientation.w = q[3]
 
-update_init_pose(2.0, 3.0, -0.2)
+update_init_pose(0.0, 0.0, 0.0)
 
 pub_init.publish(init_pose)
 
